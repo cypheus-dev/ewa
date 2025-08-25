@@ -81,10 +81,9 @@
         section {
             scroll-margin-top: 80px; /* Offset for fixed header */
         }
-        .hero-image {
-             background-image: url('obraz.jpg');
-             background-size: cover;
-             background-position: center;
+		.bg-gabinet-white {
+			    background-color: #fdfdfd; /* Kolor tła pasujący do grafiki gabinet.jpg */
+			}
         }
         .mobile-menu {
              transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -102,11 +101,8 @@
             align-items: center;
         }
         .logo-circle {
-            width: 62px;
             height: 62px;
-            min-width: 62px;
-            border-radius: 50%;
-            background-image: url('obraz.jpg');
+            background-image: url('naglowek.jpg');
             background-size: 250%;
             background-position: center;
             display: flex;
@@ -152,15 +148,12 @@
     <!-- Website Content (hidden by default) -->
     <div id="website-content" class="hidden">
         <!-- Header & Navigation -->
-        <header id="header" class="bg-white/80 backdrop-blur-md shadow-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <header id="header" class="bg-white backdrop-blur-md shadow-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300">
             <div class="container mx-auto px-6 py-2">
                 <div class="flex justify-between items-center">
-                    <a href="#home" class="logo-container">
-                        <div class="logo-circle">
-                            <span class="logo-circle-text">Ewa</span>
-                        </div>
-                        <div class="logo-text">SKRABACZ</div>
-                    </a>
+					<a href="#home" class="logo-container logo-main">
+					    <img src="naglowek.jpg" alt="Ewa Skrabacz logo" class="h-16 w-auto">
+					</a>
                     <nav class="hidden md:flex items-center space-x-4 lg:space-x-8 text-sm tracking-widest">
                         <a href="#omnie" class="nav-link ml-4 lg:ml-6"><strong class="font-semibold">o</strong> <strong class="font-semibold">m</strong>nie</a>
                         <a href="#psychoterapia" class="nav-link"><strong class="font-semibold">psycho</strong>terapia</a>
@@ -191,12 +184,9 @@
         <!-- Main Content -->
         <main>
             <!-- Home Section -->
-            <section id="home" class="hero-image h-screen flex flex-col justify-center items-center text-white text-center p-4">
-                <div class="bg-black/30 p-8 rounded-lg mt-40 sm:mt-48">
-                    <h1 class="text-3xl md:text-5xl font-light tracking-widest mb-2 font-montserrat">gabinet psychoterapii</h1>
-                    <p class="text-4xl md:text-6xl font-montserrat">«w drodze»</p>
-                </div>
-            </section>
+			<section id="home" class="h-screen flex flex-col justify-center items-center p-4" style="background-color: #D0D0C9;">
+			    <img src="gabinet_2.png" alt="Grafika Gabinet Psychoterapii w drodze" class="w-full h-auto mx-auto max-w-screen-lg">
+			</section>
 
             <!-- O mnie Section -->
             <section id="omnie" class="py-20 md:py-28 bg-white">
@@ -213,7 +203,7 @@
                         </div>
                         <div class="order-1 md:order-2 flex flex-col items-center">
                             <div class="w-full max-w-sm rounded-lg overflow-hidden">
-                               <img src="grafika es.jpg" alt="Zdjęcie Ewy Skrabacz" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/f5f3f0/7d7365?text=Brak+zdj%C4%99cia';">
+                               <img src="o_mnie_2.jpg" alt="Zdjęcie Ewy Skrabacz" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/f5f3f0/7d7365?text=Brak+zdj%C4%99cia';">
                             </div>
                         </div>
                     </div>
@@ -271,18 +261,18 @@
                             </div>
                         </div>
                         <div class="flex justify-center order-1 md:order-2">
-                            <img src="budzik.svg" alt="Grafika budzika" class="svg-icon-img">
+                            <img src="interwencja_2.jpg" alt="Grafika budzika" class="svg-icon-img">
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Oferta Section -->
-            <section id="oferta" class="py-20 md:py-28 bg-beige-custom">
+            <section id="oferta" class="py-20 md:py-28 bg-white">
                  <div class="container mx-auto px-6">
                     <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
                         <div class="flex justify-center order-1">
-                            <img src="okno.svg" alt="Grafika okna z książką" class="svg-icon-img" onerror="this.onerror=null;this.src='https://placehold.co/300x300/f5f3f0/b9b2a3?text=Brak+grafiki+okno.svg';">
+                            <img src="oferta.jpg" alt="Grafika okna z książką" class="svg-icon-img" onerror="this.onerror=null;this.src='https://placehold.co/300x300/f5f3f0/b9b2a3?text=Brak+grafiki+okno.svg';">
                         </div>
                         <div class="order-2">
                              <h2 class="text-3xl md:text-4xl font-montserrat text-brown-custom mb-6 border-b-2 border-beige-custom pb-3 lowercase"><strong class="font-bold">of</strong>erta</h2>
@@ -350,8 +340,8 @@
         <!-- Footer -->
         <footer class="bg-beige-custom text-center py-6">
             <div class="container mx-auto px-6 text-sm text-gray-500">
-                <p>&copy; 2024 Ewa Skrabacz - Gabinet Psychoterapii «w drodze». Wszelkie prawa zastrzeżone.</p>
-                 <p class="mt-2">Projekt i wykonanie strony: Gemini</p>
+                <p>&copy; 2025 Ewa Skrabacz - Gabinet Psychoterapii «w drodze». Wszelkie prawa zastrzeżone.</p>
+                 <p class="mt-2">Projekt i wykonanie strony: </p>
             </div>
         </footer>
     </div>
