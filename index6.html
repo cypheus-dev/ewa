@@ -112,6 +112,19 @@
             margin: 0 auto;
             display: block;
         }
+		/* Klasa do wizualnego ukrywania tekstu */
+		.visually-hidden {
+		    position: absolute;
+		    width: 1px;
+		    height: 1px;
+		    margin: -1px;
+		    border: 0;
+		    padding: 0;
+		    white-space: nowrap;
+		    clip-path: inset(100%);
+		    clip: rect(0 0 0 0);
+		    overflow: hidden;
+		}
     </style>
 </head>
 <body class="bg-gray-50 text-gray-700">
@@ -135,9 +148,12 @@
             <!-- Zmieniono kontener, aby usunąć marginesy na urządzeniach mobilnych, ale zachować je na większych ekranach -->
             <div class="container mx-auto px-6 py-2">
                 <div class="flex justify-between items-center">
-					<a href="#home" class="logo-container logo-main">
-					    <img src="naglowek.jpg" alt="Ewa Skrabacz logo" class="h-16 w-auto">
+					<a href="#home" class="flex items-center space-x-2">
+					    <!-- Ukryty h1 dla lepszego SEO -->
+					    <h1 class="visually-hidden">Gabinet Psychoterapii «w drodze» - Ewa Skrabacz</h1>
+					    <img src="naglowek.jpg" alt="Gabinet Psychoterapii «w drodze». Ewa Skrabacz" class="h-16 w-auto">
 					</a>
+					
                     <nav class="hidden md:flex items-center space-x-4 lg:space-x-8 text-sm tracking-widest">
                         <a href="#omnie" class="nav-link ml-4 lg:ml-6"><strong class="font-semibold">o</strong> <strong class="font-semibold">m</strong>nie</a>
                         <a href="#psychoterapia" class="nav-link"><strong class="font-semibold">psycho</strong>terapia</a>
@@ -187,7 +203,7 @@
                         </div>
                         <div class="order-1 md:order-2 flex flex-col items-center">
                             <div class="w-full max-w-sm rounded-lg overflow-hidden">
-                               <img src="grafika es.jpg" alt="Zdjęcie Ewy Skrabacz" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/f5f3f0/7d7365?text=Brak+zdj%C4%99cia';">
+                               <img src="grafika es.jpg" alt="Zdjęcie Ewy Skrabacz" class="w-full h-full object-cover max-w-xs" onerror="this.onerror=null;this.src='https://placehold.co/400x400/f5f3f0/7d7365?text=Brak+zdj%C4%99cia';">
                             </div>
                         </div>
                     </div>
