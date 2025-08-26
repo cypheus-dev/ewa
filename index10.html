@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrabaczterapia - Psychoterapia w Opolu | Ewa Skrabacz - Gabinet Psychoterapii</title>
+    
+    <!-- Rozbudowane meta opisy dla lepszego SEO -->
+    <meta name="description" content="Skrabaczterapia - profesjonalna psychoterapia w Opolu. Ewa Skrabacz oferuje psychoterapię indywidualną psychodynamiczną, interwencję kryzysową, pomoc w depresji, lęku, nerwicy. Gabinet przy ul. Strzelców Bytomskich 7. Umów wizytę: 501 580 609">
+    <meta name="keywords" content="psychoterapia Opole, psychoterapeuta Opole, Ewa Skrabacz, gabinet psychoterapeutyczny Opole, terapia psychodynamiczna, interwencja kryzysowa Opole, pomoc psychologiczna Opole, depresja, lęk, nerwica">
+    <meta name="author" content="Ewa Skrabacz">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://skrabaczterapia.pl/">
+    
+    <!-- Open Graph dla mediów społecznościowych -->
+    <meta property="og:title" content="Skrabaczterapia - Gabinet Psychoterapii w Opolu | Ewa Skrabacz">
+    <meta property="og:description" content="Profesjonalna psychoterapia psychodynamiczna w Opolu. Pomoc w depresji, lęku, kryzysach życiowych. Doświadczony terapeuta z certyfikatem. Umów się na wizytę.">
+    <meta property="og:image" content="https://skrabaczterapia.pl/images/ewa-skrabacz-psychoterapeuta.webp">
+    <meta property="og:url" content="https://skrabaczterapia.pl">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Skrabaczterapia - Psychoterapia w Opolu">
+    <meta name="twitter:description" content="Ewa Skrabacz - profesjonalna psychoterapia psychodynamiczna i interwencja kryzysowa w Opolu">
+    <meta name="twitter:image" content="https://skrabaczterapia.pl/images/ewa-skrabacz-psychoterapeuta.webp">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Preconnect dla optymalizacji ładowania czcionek -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Czcionki - zoptymalizowane ładowanie -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome - tylko ikony których używamy -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Tailwind CSS - rozważyć lokalne hostowanie w przyszłości -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Dane strukturalne Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Skrabaczterapia - Gabinet Psychoterapii w drodze",
+        "alternateName": "Gabinet Psychoterapii Ewa Skrabacz",
+        "image": "https://skrabaczterapia.pl/images/ewa-skrabacz-psychoterapeuta.webp",
+        "url": "https://skrabaczterapia.pl",
+        "telephone": "+48501580609",
+        "email": "kontakt@skrabaczterapia.pl",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Strzelców Bytomskich 7",
+            "addressLocality": "Opole",
+            "postalCode": "45-084",
+            "addressCountry": "PL"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 50.67232,
+            "longitude": 17.93321
+        },
+        "priceRange": "180 PLN za sesję",
+        "openingHours": "Mo-Fr 08:00-20:00",
+        "description": "Profesjonalny gabinet psychoterapii w Opolu. Psychoterapia psychodynamiczna dla dorosłych, interwencja kryzysowa. Pomoc w depresji, lęku, kryzysach życiowych.",
+        "founder": {
+            "@type": "Person",
+            "name": "Ewa Skrabacz",
+            "jobTitle": "Psychoterapeuta",
+            "alumniOf": "Krakowskie Centrum Psychoterapii",
+            "memberOf": [
+                {
+                    "@type": "Organization",
+                    "name": "Polskie Towarzystwo Psychoterapii Psychodynamicznej"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Polskie Towarzystwo Psychologiczne"
+                }
+            ]
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Usługi psychoterapeutyczne",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Psychoterapia indywidualna",
+                    "price": "180",
+                    "priceCurrency": "PLN",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Sesja psychoterapii indywidualnej 50 minut"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Konsultacja psychoterapeutyczna",
+                    "price": "180",
+                    "priceCurrency": "PLN",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Pierwsza konsultacja diagnostyczna 50 minut"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Interwencja kryzysowa",
+                    "price": "180",
+                    "priceCurrency": "PLN",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Pomoc w sytuacji kryzysu psychicznego 50 minut"
+                }
+            ]
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Opole"
+        },
+        "medicalSpecialty": "Psychiatry"
+    }
+    </script>
+    
+    <!-- Breadcrumb Schema dla lepszej nawigacji w wynikach -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Strona główna",
+                "item": "https://skrabaczterapia.pl"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "O mnie",
+                "item": "https://skrabaczterapia.pl/#omnie"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Psychoterapia",
+                "item": "https://skrabaczterapia.pl/#psychoterapia"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Kontakt",
+                "item": "https://skrabaczterapia.pl/#kontakt"
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        /* Zoptymalizowane style CSS */
+        :root {
+            --brown-custom: #7d7365;
+            --brown-dark: #6c6255;
+            --beige-custom: #f5f3f0;
+            --beige-border: #e0ddd7;
+            --accent-color: #b9b2a3;
+            --text-primary: #2c2c2c;
+            --text-secondary: #5c554a;
+        }
+        
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #fdfdfd;
+            color: var(--text-primary);
+        }
+        
+        h1, h2, h3, .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .font-logo {
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .text-brown-custom { color: var(--brown-custom); }
+        .bg-brown-custom { background-color: var(--brown-custom); }
+        .hover\:bg-brown-custom-dark:hover { background-color: var(--brown-dark); }
+        .bg-beige-custom { background-color: var(--beige-custom); }
+        .border-beige-custom { border-color: var(--beige-border); }
+        .accent-color { color: var(--accent-color); }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--accent-color);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+        
+        .nav-link:hover,
+        .nav-link.active {
+            color: #3e3a32;
+        }
+        
+        section {
+            scroll-margin-top: 80px;
+        }
+        
+        .mobile-menu {
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+        
+        .svg-icon-img {
+            max-width: 450px;
+            height: auto;
+            width: 100%;
+        }
+        
+        .leading-custom {
+            line-height: 1.65;
+        }
+        
+        /* Lazy loading dla obrazów */
+        img.lazy {
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        img.lazy.loaded {
+            opacity: 1;
+        }
+        
+        /* Print styles dla dostępności */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-700">
+
+    <!-- Skip to content dla dostępności -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-brown-custom text-white px-4 py-2 rounded">Przejdź do treści</a>
+
+    <!-- Header & Navigation -->
+    <header id="header" class="bg-white backdrop-blur-md shadow-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300 no-print">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#home" class="flex items-center space-x-2" aria-label="Strona główna Skrabaczterapia">
+                    <img src="logo-skrabaczterapia.webp" 
+                         alt="Skrabaczterapia - Gabinet Psychoterapii Ewa Skrabacz w Opolu" 
+                         class="h-16 w-auto"
+                         width="200"
+                         height="64">
+                </a>
+                
+                <nav class="hidden md:flex items-center space-x-4 lg:space-x-8 text-sm tracking-widest" aria-label="Nawigacja główna">
+                    <a href="#omnie" class="nav-link ml-4 lg:ml-6"><strong class="font-semibold">o</strong> <strong class="font-semibold">m</strong>nie</a>
+                    <a href="#psychoterapia" class="nav-link"><strong class="font-semibold">psycho</strong>terapia</a>
+                    <a href="#interwencja" class="nav-link"><strong class="font-semibold">in</strong>terwencja <strong class="font-semibold">kryzys</strong>owa</a>
+                    <a href="#oferta" class="nav-link"><strong class="font-semibold">of</strong>erta</a>
+                    <a href="#kontakt" class="nav-link"><strong class="font-semibold">kon</strong>takt</a>
+                </nav>
+                
+                <button id="menu-button" class="md:hidden text-brown-custom text-2xl z-20" aria-label="Menu mobilne">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                    <i class="fas fa-times hidden" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu transform -translate-y-full opacity-0 absolute top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-lg md:hidden">
+            <nav class="flex flex-col items-center space-y-6 pt-24 pb-8" aria-label="Menu mobilne">
+                <a href="#omnie" class="nav-link mobile-nav-link text-xl">o mnie</a>
+                <a href="#psychoterapia" class="nav-link mobile-nav-link text-xl">psychoterapia</a>
+                <a href="#interwencja" class="nav-link mobile-nav-link text-xl">interwencja kryzysowa</a>
+                <a href="#oferta" class="nav-link mobile-nav-link text-xl">oferta</a>
+                <a href="#kontakt" class="nav-link mobile-nav-link text-xl">kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Home Section -->
+        <section id="home" class="h-screen flex flex-col justify-center items-center p-4" style="background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgba(208,208,201,1) 100%);">
+            <h1 class="sr-only">Skrabaczterapia - Profesjonalna Psychoterapia w Opolu - Ewa Skrabacz</h1>
+            <img src="gabinet-glowna-grafika.webp" 
+                 alt="Skrabaczterapia - Gabinet Psychoterapii w drodze, profesjonalna pomoc psychologiczna w Opolu" 
+                 class="w-full h-auto max-w-3xl mx-auto drop-shadow-2xl"
+                 width="896"
+                 height="504"
+                 loading="eager">
+        </section>
+
+        <!-- O mnie Section -->
+        <section id="omnie" class="py-20 md:py-28 bg-white" aria-labelledby="omnie-heading">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="order-2 md:order-1">
+                        <h2 id="omnie-heading" class="text-3xl md:text-4xl font-montserrat text-brown-custom mb-6 border-b-2 border-beige-custom pb-3">
+                            <strong class="font-bold">O</strong> <strong class="font-bold">m</strong>nie - Ewa Skrabacz, psychoterapeuta w Opolu
+                        </h2>
+                        <div class="space-y-4 text-gray-600 leading-custom">
+                            <p><strong>Jestem certyfikowanym psychoterapeutą w Opolu</strong>, prowadzę psychoterapię indywidualną dla osób dorosłych w nurcie psychodynamicznym. Ukończyłam czteroletnie specjalistyczne szkolenie psychoterapeutyczne w Krakowskim Centrum Psychoterapii, rekomendowane przez Polskie Towarzystwo Psychologiczne oraz Polskie Towarzystwo Psychoterapii Psychodynamicznej.</p>
+                            
+                            <h3 class="text-xl font-semibold text-brown-custom mt-6 mb-3">Moje doświadczenie kliniczne</h3>
+                            <p>Doświadczenie w pracy terapeutycznej zdobywałam na Oddziale Zaburzeń Nerwicowych oraz Oddziale Psychogeriatrycznym w 116. Szpitalu Wojskowym w Opolu. Pracowałam również w Poradni Rodzinnej Diecezjalnej Fundacji Ochrony Życia w Opolu, gdzie pomagałam osobom w kryzysach małżeńskich i rodzinnych.</p>
+                            
+                            <h3 class="text-xl font-semibold text-brown-custom mt-6 mb-3">Standardy mojej pracy</h3>
+                            <p>Psychoterapię prowadzę zgodnie z Kodeksem etyki psychoterapeuty Polskiego Towarzystwa Psychoterapii Psychodynamicznej, którego jestem członkiem. Swoją pracę regularnie poddaję superwizji klinicznej, co gwarantuje najwyższą jakość oferowanych usług terapeutycznych.</p>
+                            
+                            <h3 class="text-xl font-semibold text-brown-custom mt-6 mb-3">Specjalizacja w interwencji kryzysowej</h3>
+                            <p>Jestem również certyfikowanym interwentem kryzysowym po szkoleniu na Uniwersytecie SWPS we Wrocławiu. Posiadam międzynarodowy certyfikat International Critical Incident Stress Foundation (ICISF), co pozwala mi skutecznie pomagać osobom w nagłych kryzysach psychicznych.</p>
+                        </div>
+                    </div>
+                    <div class="order-1 md:order-2 flex flex-col items-center">
+                        <div class="w-full max-w-sm rounded-lg overflow-hidden">
+                            <img src="ewa-skrabacz-psychoterapeuta.webp" 
+                                 alt="Ewa Skrabacz - psychoterapeuta w gabinecie Skrabaczterapia w Opolu, profesjonalna pomoc psychologiczna" 
+                                 class="w-full h-full object-cover max-w-xs lazy"
+                                 width="400"
+                                 height="500"
+                                 loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Psychoterapia Section -->
+        <section id="psychoterapia" class="py-20 md:py-28 bg-white" aria-labelledby="psychoterapia-heading">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="flex justify-center order-1">
+                        <img src="psychoterapia-grafika.svg" 
+                             alt="Psychoterapia w Opolu - grafika symbolizująca proces terapeutyczny i rozwój osobisty" 
+                             class="svg-icon-img lazy"
+                             loading="lazy">
+                    </div>
+                    <div class="order-2">
+                        <h2 id="psychoterapia-heading" class="text-3xl md:text-4xl font-montserrat text-brown-custom mb-6 border-b-2 border-beige-custom pb-3">
+                            <strong class="font-bold">Psycho</strong>terapia indywidualna w Opolu
+                        </h2>
+                        <div class="space-y-4 text-gray-600 leading-custom">
+                            <h3 class="text-xl font-semibold text-brown-custom mb-3">Jak wygląda psychoterapia w moim gabinecie?</h3>
+                            <p>Psychoterapia w gabinecie Skrabaczterapia ma formę regularnych spotkań twarzą w twarz. Podczas sesji zachęcam pacjentów do swobodnego dzielenia się myślami, uczuciami i skojarzeniami. Wspólnie pracujemy nad zrozumieniem Twojej rzeczywistości wewnętrznej i zewnętrznej, co umożliwia wprowadzanie korzystnych zmian w codziennym życiu.</p>
+                            
+                            <h3 class="text-xl font-semibold text-brown-custom mt-6 mb-3">Komu pomagam? Psychoterapia w Opolu dla osób z:</h3>
+                            <ul class="list-none space-y-2 pl-4">
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Depresją i obniżonym nastrojem</strong> - poczucie pustki, brak radości z życia</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Zaburzeniami lękowymi</strong> - napady paniki, fobie, lęk uogólniony</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Niskim poczuciem własnej wartości</strong> - brak pewności siebie, samokrytyka</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Problemami w relacjach</strong> - trudności w związkach, samotność</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Objawami psychosomatycznymi</strong> - bóle głowy, brzucha, klatki piersiowej bez przyczyn medycznych</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Zaburzeniami snu</strong> - bezsenność, koszmary nocne, lęki nocne</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Zaburzeniami odżywiania</strong> - anoreksja, bulimia, kompulsywne objadanie się</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Zaburzeniami osobowości</strong> - borderline, narcystyczne, unikające</li>
+                            </ul>
+                            
+                            <h3 class="text-xl font-semibold text-brown-custom mt-6 mb-3">Jak często odbywają się sesje?</h3>
+                            <p>Decyzja o rozpoczęciu psychoterapii podejmowana jest po 2-3 spotkaniach konsultacyjnych. Sesje terapeutyczne w gabinecie Skrabaczterapia odbywają się regularnie <strong>raz w tygodniu</strong> i trwają <strong>50 minut</strong>. Regularność spotkań jest kluczowa dla efektywności procesu terapeutycznego.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interwencja kryzysowa Section -->
+        <section id="interwencja" class="py-20 md:py-28 bg-white" aria-labelledby="interwencja-heading">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="order-2 md:order-1">
+                        <h2 id="interwencja-heading" class="text-3xl md:text-4xl font-montserrat text-brown-custom mb-6 border-b-2 border-beige-custom pb-3">
+                            <strong class="font-bold">In</strong>terwencja <strong class="font-bold">kryzys</strong>owa w Opolu - pomoc w nagłych sytuacjach
+                        </h2>
+                        <div class="space-y-4 text-gray-600 leading-custom">
+                            <h3 class="text-xl font-semibold text-brown-custom mb-3">Czym jest interwencja kryzysowa?</h3>
+                            <p>Interwencja kryzysowa to <strong>pierwsza pomoc psychologiczna w Opolu</strong> dla osób w nagłych, trudnych sytuacjach życiowych. Gdy pojawiają się przytłaczające emocje i poczucie bezradności, pomagam zrozumieć sytuację i odzyskać kontrolę nad własnym życiem.</p>
+                            
+                            <h3 class="text-xl font-semibold text-brown-custom mt-6 mb-3">Kiedy zgłosić się po pomoc kryzysową?</h3>
+                            <ul class="list-none space-y-2 pl-4">
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Śmierć bliskiej osoby</strong> - żałoba, rozpacz, poczucie pustki</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Doświadczenie przemocy</strong> - fizycznej, psychicznej, seksualnej</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Rozstanie, rozwód</strong> - rozpad związku, konflikt rodzinny</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Diagnoza ciężkiej choroby</strong> - własnej lub bliskiej osoby</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Utrata pracy</strong> - zwolnienie, problemy finansowe</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Wypadek, katastrofa</strong> - traumatyczne zdarzenia losowe</li>
+                                <li class="flex items-start"><span class="accent-color mr-3 mt-1">▷</span> <strong>Myśli samobójcze</strong> - gdy życie traci sens</li>
+                            </ul>
+                            
+                            <h3 class="text-xl font-semibold text-brown-custom mt-6 mb-3">Jak długo trwa pomoc kryzysowa?</h3>
+                            <p>Interwencja kryzysowa w gabinecie Skrabaczterapia to pomoc krótkoterminowa - zazwyczaj <strong>od 5 do 15 spotkań</strong>, w zależności od Twoich potrzeb. Po ustabilizowaniu sytuacji możemy wspólnie zdecydować o kontynuowaniu pracy w formie psychoterapii długoterminowej.</p>
+                            
+                            <div class="bg-beige-custom p-4 rounded-lg mt-6">
+                                <p class="font-semibold text-brown-custom">⚡ Potrzebujesz pilnej pomocy psychologicznej w Opolu?</p>
+                                <p>Zadzwoń: <a href="tel:501580609" class="text-brown-custom font-bold hover:underline">501 580 609</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center order-1 md:order-2">
+                        <img src="interwencja-kryzysowa-grafika.webp" 
+                             alt="Interwencja kryzysowa Opole - szybka pomoc psychologiczna w trudnych sytuacjach" 
+                             class="svg-icon-img lazy"
+                             loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Oferta Section -->
+        <section id="oferta" class="py-20 md:py-28 bg-white" aria-labelledby="oferta-heading">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="flex justify-center order-1">
+                        <img src="cennik-grafika.webp" 
+                             alt="Cennik psychoterapii w Opolu - przystępne ceny, profesjonalna pomoc" 
+                             class="svg-icon-img lazy"
+                             loading="lazy">
+                    </div>
+                    <div class="order-2">
+                        <h2 id="oferta-heading" class="text-3xl md:text-4xl font-montserrat text-brown-custom mb-6 border-b-2 border-beige-custom pb-3">
+                            <strong class="font-bold">Of</strong>erta i cennik - Psychoterapia Opole
+                        </h2>
+                        <h3 class="text-xl font-semibold text-brown-custom mb-4">Cennik usług psychoterapeutycznych:</h3>
+                        <div class="space-y-6 text-xl text-gray-700">
+                            <div class="flex justify-between items-baseline border-b border-dashed border-beige-custom pb-3">
+                                <span>Psychoterapia indywidualna (50 min)</span>
+                                <span class="font-semibold text-brown-custom">180 zł</span>
+                            </div>
+                            <div class="flex justify-between items-baseline border-b border-dashed border-beige-custom pb-3">
+                                <span>Konsultacja psychoterapeutyczna (50 min)</span>
+                                <span class="font-semibold text-brown-custom">180 zł</span>
+                            </div>
+                            <div class="flex justify-between items-baseline border-b border-dashed border-beige-custom pb-3">
+                                <span>Interwencja kryzysowa (50 min)</span>
+                                <span class="font-semibold text-brown-custom">180 zł</span>
+                            </div>
+                        </div>
+                        <div class="mt-8 bg-beige-custom p-4 rounded-lg">
+                            <p class="text-gray-600"><strong>Formy płatności:</strong> Przelew bankowy lub BLIK</p>
+                            <p class="text-gray-600 mt-2"><strong>Pierwsza konsultacja</strong> to okazja do wzajemnego poznania się i omówienia Twoich potrzeb terapeutycznych.</p>
+                        </div>
+                        <div class="mt-6 p-4 border-l-4 border-brown-custom">
+                            <p class="text-gray-600 italic">Wystawiam faktury. Niektóre firmy oferują dofinansowanie psychoterapii dla swoich pracowników - zapytaj w dziale HR.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section - nowa sekcja dla SEO -->
+        <section id="faq" class="py-20 bg-beige-custom" aria-labelledby="faq-heading">
+            <div class="container mx-auto px-6">
+                <h2 id="faq-heading" class="text-3xl md:text-4xl font-montserrat text-brown-custom mb-8 text-center">
+                    Najczęściej zadawane pytania o psychoterapię w Opolu
+                </h2>
+                <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-brown-custom mb-3">Jak długo trwa psychoterapia?</h3>
+                        <p class="text-gray-600">Długość psychoterapii zależy od indywidualnych potrzeb. Krótkoterminowa terapia może trwać 3-6 miesięcy, podczas gdy praca nad głębszymi problemami często wymaga 1-3 lat regularnych spotkań.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-brown-custom mb-3">Czy psychoterapia jest skuteczna?</h3>
+                        <p class="text-gray-600">Tak, badania naukowe potwierdzają skuteczność psychoterapii w leczeniu depresji, lęku, zaburzeń osobowości i wielu innych problemów psychicznych. Kluczowe jest zaangażowanie pacjenta i regularne uczestnictwo.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-brown-custom mb-3">Czym różni się psycholog od psychoterapeuty?</h3>
+                        <p class="text-gray-600">Psychoterapeuta ukończył dodatkowe 4-letnie szkolenie w konkretnej szkole psychoterapii. Psycholog może oferować wsparcie i konsultacje, ale psychoterapia to specjalistyczna forma długoterminowej pomocy.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-brown-custom mb-3">Jak umówić się na wizytę w Skrabaczterapii?</h3>
+                        <p class="text-gray-600">Zadzwoń pod numer 501 580 609 lub napisz na kontakt@skrabaczterapia.pl. Umówimy dogodny termin pierwszej konsultacji. Gabinet znajduje się w centrum Opola przy ul. Strzelców Bytomskich 7.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt Section -->
+        <section id="kontakt" class="py-20 md:py-28 bg-white" aria-labelledby="kontakt-heading">
+            <div class="container mx-auto px-6">
+                <h2 id="kontakt-heading" class="text-3xl md:text-4xl font-montserrat text-brown-custom mb-8 text-center">
+                    <strong class="font-bold">Kon</strong>takt - Psychoterapia Opole
+                </h2>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <div class="text-lg">
+                        <h3 class="text-xl font-semibold text-brown-custom mb-4">Skrabaczterapia - Gabinet Psychoterapii</h3>
+                        <address class="not-italic">
+                            <ul class="space-y-4 text-gray-600">
+                                <li class="flex items-center">
+                                    <i class="fas fa-phone accent-color w-6 text-center mr-3" aria-hidden="true"></i>
+                                    <a href="tel:501580609" class="hover:text-brown-custom transition-colors">501 580 609</a>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fab fa-whatsapp accent-color w-6 text-center mr-3" aria-hidden="true"></i>
+                                    <a href="https://wa.me/48501580609" class="hover:text-brown-custom transition-colors">501 580 609 (WhatsApp)</a>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-envelope accent-color w-6 text-center mr-3" aria-hidden="true"></i>
+                                    <a href="mailto:kontakt@skrabaczterapia.pl" class="hover:text-brown-custom transition-colors">kontakt@skrabaczterapia.pl</a>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-map-marker-alt accent-color w-6 text-center mr-3 mt-1" aria-hidden="true"></i>
+                                    <div>
+                                        <strong>Gabinet Psychoterapii Opole:</strong><br>
+                                        ul. Strzelców Bytomskich 7<br>
+                                        45-084 Opole<br>
+                                        <span class="text-sm text-gray-500">(centrum miasta, dobry dojazd komunikacją miejską)</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </address>
+                        <div class="mt-6 bg-beige-custom p-4 rounded-lg">
+                            <h4 class="font-semibold text-brown-custom mb-2">Godziny przyjęć:</h4>
+                            <p class="text-gray-600">Poniedziałek - Piątek: 8:00 - 20:00</p>
+                            <p class="text-gray-600">Terminy ustalane indywidualnie</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg overflow-hidden shadow-lg h-80 md:h-full">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.504449830889!2d17.93321607703816!3d50.67232317163884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47105307b045136d%3A0x33b4f6b43292a43!2sStrzelc%C3%B3w%20Bytomskich%207%2C%2045-084%20Opole%2C%20Poland!5e0!3m2!1sen!2sus!4v1718834458316!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Lokalizacja gabinetu Skrabaczterapia w Opolu">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-beige-custom text-center py-6">
+        <div class="container mx-auto px-6 text-sm text-gray-500">
+            <p>&copy; 2025 <strong>Skrabaczterapia</strong> - Gabinet Psychoterapii «w drodze» | Ewa Skrabacz</p>
+            <p class="mt-2">Psychoterapia Opole | ul. Strzelców Bytomskich 7 | Tel: 501 580 609</p>
+            <p class="mt-2">
+                <a href="/polityka-prywatnosci" class="hover:text-brown-custom transition-colors">Polityka prywatności</a> | 
+                <a href="/regulamin" class="hover:text-brown-custom transition-colors">Regulamin</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Zoptymalizowany JavaScript -->
+    <script>
+        // Mobile menu toggle z lepszą dostępnością
+        const menuButton = document.getElementById('menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const openIcon = menuButton.querySelector('.fa-bars');
+        const closeIcon = menuButton.querySelector('.fa-times');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        let isMenuOpen = false;
+
+        menuButton.addEventListener('click', () => {
+            isMenuOpen = !isMenuOpen;
+            mobileMenu.classList.toggle('-translate-y-full');
+            mobileMenu.classList.toggle('opacity-0');
+            openIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+            menuButton.setAttribute('aria-expanded', isMenuOpen);
+        });
+
+        // Close mobile menu when a link is clicked
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                isMenuOpen = false;
+                mobileMenu.classList.add('-translate-y-full');
+                mobileMenu.classList.add('opacity-0');
+                openIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+                menuButton.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // Active nav link styling on scroll z throttle dla wydajności
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const header = document.getElementById('header');
+        let headerHeight = header.offsetHeight;
+        let ticking = false;
+
+        function updateNav() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - headerHeight - 20) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+            
+            // Header shadow on scroll
+            if (window.scrollY > 10) {
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('shadow-md');
+            }
+            
+            ticking = false;
+        }
+
+        function requestTick() {
+            if (!ticking) {
+                window.requestAnimationFrame(updateNav);
+                ticking = true;
+            }
+        }
+
+        window.addEventListener('scroll', requestTick);
+        window.addEventListener('resize', () => {
+            headerHeight = header.offsetHeight;
+        });
+
+        // Lazy loading dla obrazów
+        const lazyImages = document.querySelectorAll('img.lazy');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.classList.add('loaded');
+                    imageObserver.unobserve(img);
+                }
+            });
+        });
+
+        lazyImages.forEach(img => imageObserver.observe(img));
+
+        // Set active link for home on page load
+        if(document.querySelector('a[href="#home"]')) {
+            document.querySelector('a[href="#home"]').classList.add('active');
+        }
+    </script>
+</body>
+</html>
